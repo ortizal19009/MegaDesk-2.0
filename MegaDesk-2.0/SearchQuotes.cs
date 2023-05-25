@@ -68,30 +68,7 @@ namespace MegaDesk_4_ColeCannon
             {
                 Console.WriteLine(j.ToString());
             }
-            //StreamReader re = new StreamReader(@"quotes.txt");
-            
-            //try
-            //{
-            //    while (!re.EndOfStream)
-            //    {
-            //        string quote = re.ReadLine();
-            //        string[] quoteProperties = quote.Split(',');
 
-            //        if (quoteProperties[4] == SearchMaterialCombo.Text)
-            //        {
-
-            //            SearchColumnDisplay.Items.Add(new ListViewItem(new[] { quoteProperties[0], quoteProperties[1], quoteProperties[2] + "\"", quoteProperties[3] + "\"", quoteProperties[4], quoteProperties[5], quoteProperties[6], "$" + quoteProperties[7] }));
-            //        }
-            //    }
-            //}
-            //catch(Exception ex)
-            //{
-            //    Console.WriteLine("File read issue: " + ex.Message);
-            //}
-            //finally
-            //{
-            //    re.Close();
-            //}
         }
 
         private void SearchMaterialCombo_SelectedIndexChanged(object sender, EventArgs e)

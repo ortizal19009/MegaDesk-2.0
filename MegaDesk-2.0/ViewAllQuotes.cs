@@ -58,5 +58,10 @@ namespace MegaDesk_4_ColeCannon
             mainMenu.Show();
             Close();
         }
+
+        private void ViewAllDisplay_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

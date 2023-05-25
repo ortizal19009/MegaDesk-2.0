@@ -55,12 +55,14 @@
             // 
             // ViewAllDisplay
             // 
+            this.ViewAllDisplay.HideSelection = false;
             this.ViewAllDisplay.Location = new System.Drawing.Point(97, 56);
             this.ViewAllDisplay.Name = "ViewAllDisplay";
             this.ViewAllDisplay.Size = new System.Drawing.Size(611, 326);
             this.ViewAllDisplay.TabIndex = 15;
             this.ViewAllDisplay.UseCompatibleStateImageBehavior = false;
             this.ViewAllDisplay.View = System.Windows.Forms.View.Details;
+            this.ViewAllDisplay.SelectedIndexChanged += new System.EventHandler(this.ViewAllDisplay_SelectedIndexChanged);
             // 
             // ViewAllQuotes
             // 
